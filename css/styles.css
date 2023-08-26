@@ -56,6 +56,15 @@ ul {
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.54px;
+  margin-left: 156px;
+  margin-right: 76px;
+}
+
+.main-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .iris {
@@ -68,30 +77,39 @@ ul {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+
 }
 
 .nav-menu-list .nav-menu-link:hover {
   color: var(--ocean);
 }
 
-.address .address-link:hover {
-    color: var(--ocean);
-}
-
 .nav-menu-list {
+  display: inline-block;
+  margin-right: 40px;
   list-style: none;
 }
 
-.address {
-  list-style: none;
+.contacts-address .contacts-address-link:hover {
+  color: var(--ocean);
 }
 
-.address-link {
+.contacts-address {
+  list-style: none;
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+.contacts-address-link {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
   color: var(--slate);
+}
+
+.contacts:nth-child(1) {
+  left margin: 332px;
 }
 .hero {
   background-color: var(--navy-blue);
@@ -221,3 +239,4 @@ footer p {
 .cloud {
   color: var(--cloud);
 }
+
