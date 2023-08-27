@@ -53,12 +53,38 @@ address {
   font-style: normal;
 }
 
-.nav-menu {
-  display: inline-block;
+.main-header-container {
+  width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
-.address {
-  display: inline-block;
+.nav-menu-link {
+  display: inline-flex;
+  row-gap: 40px;
+}
+
+.nav-menu-item {
+  display: inline-flex;
+}
+
+.contacts-address {
+  display: inline-flex;
+  margin-left: auto;
+}
+
+
+
+.nav-menu-list {
+  list-style: none;
+  margin-left: 76px;
+
+}
+
+.contacts {
+  list-style: none;
 }
 
 
@@ -72,26 +98,6 @@ address {
   line-height: 1.17em;
   letter-spacing: 0.54px;
 }
-
-.nav-menu-list {
-  list-style: none;
-  margin-right: 40px;
-  display: flex;
-}
-
-.nav-menu-list {
-  margin-right: 40px;
-}
-
-.nav-menu-item:first-child {
-  margin-right: 76px;
-}
-
-.contacts {
-  list-style: none;
-  display: flex;
-}
-
 
 .iris {
   color: var(--iris);
@@ -119,6 +125,7 @@ address {
   line-height: 1.5em;
   letter-spacing: 0.32px;
   color: var(--slate);
+  margin-left: auto;
 }
 
 .hero {
@@ -152,7 +159,21 @@ address {
   line-height: 1.5em;
   letter-spacing: 0.64px;
   font-family: inherit;
+  display: block;
+  
 }
+
+.features-items {
+  display: inline-block;
+
+}
+
+.features-item {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+
 
 
 .filter-item {
@@ -255,12 +276,7 @@ address {
   margin-right: auto;
 }
 
-.main-header-container {
-  width: 1158px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .features {
   padding: 120px 0px;
