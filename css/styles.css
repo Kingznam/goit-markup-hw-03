@@ -64,16 +64,19 @@ address {
 .nav-menu-link {
   display: inline-flex;
   column-gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-menu-item {
   display: inline-flex;
-  column-gap: 40px;
 }
 
 .contacts-address {
-  display: inline-flex;
-  margin-left: auto;
+  display: inline-block;
+  margin-left:auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 
@@ -98,6 +101,8 @@ address {
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.54px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .iris {
@@ -141,8 +146,8 @@ address {
   font-weight: 700;
   letter-spacing: 1.12px;
   line-height: 1.07em;
-  padding: 188px 472px 292px;
-  display: inline-block;
+  display: block;
+  margin-top: 188px;
 }
 
 .hero-button:hover {
@@ -163,6 +168,10 @@ address {
   line-height: 1.5em;
   letter-spacing: 0.64px;
   font-family: inherit;
+  display: inline-block;
+  margin-top: 48px;
+  margin-bottom: 188px;
+  
   
 }
 
