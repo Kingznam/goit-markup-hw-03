@@ -63,11 +63,12 @@ address {
 
 .nav-menu-link {
   display: inline-flex;
-  row-gap: 40px;
+  column-gap: 40px;
 }
 
 .nav-menu-item {
   display: inline-flex;
+  column-gap: 40px;
 }
 
 .contacts-address {
@@ -130,6 +131,7 @@ address {
 
 .hero {
   background-color: var(--navy-blue);
+  display: flex;
 }
 
 .hero-text {
@@ -139,6 +141,8 @@ address {
   font-weight: 700;
   letter-spacing: 1.12px;
   line-height: 1.07em;
+  padding: 188px 472px 292px;
+  display: inline-block;
 }
 
 .hero-button:hover {
@@ -159,7 +163,6 @@ address {
   line-height: 1.5em;
   letter-spacing: 0.64px;
   font-family: inherit;
-  display: block;
   
 }
 
@@ -226,6 +229,9 @@ address {
 .features-item {
   list-style-type: none;
 }
+.features-item .section-sub-header {
+  margin-bottom: 8px;
+}
 
 .section-main-header {
   text-align: center;
@@ -235,22 +241,33 @@ address {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--navy-blue);
+  margin-bottom: 80px;
 }
 
-.service-images {
+.services-lists {
   list-style: none;
+  display: flex;
+  column-gap: 24px;
 }
 
 .team {
   background-color: var(--cloud);
 }
 
+.team-members {
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+}
+ .team-images {
+  text-align: center;
+ }
 .team-text {
   text-align: center;
 }
 
-.team-images {
-  list-style-type: none;
+.team-images .section-sub-header {
+  margin: 32px 0px 8px;
 }
 
 .footer {
