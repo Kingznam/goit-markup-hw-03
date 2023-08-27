@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 1440px;
   
 }
 
@@ -44,15 +43,22 @@ h4,
 h5,
 h6,
 p,
+
 ul {
   margin: 0;
   padding: 0;
 }
 
-.main-header {
+address {
+  font-style: normal;
+}
+
+.nav-menu {
   display: inline-block;
-  justify-content: space-between;
-  
+}
+
+.address {
+  display: inline-block;
 }
 
 
@@ -65,15 +71,25 @@ ul {
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.54px;
-  margin-left: 156px;
-  margin-right: 76px;
 }
 
 .nav-menu-list {
   list-style: none;
   margin-right: 40px;
-  display: inline-block;
+  display: flex;
+}
 
+.nav-menu-list {
+  margin-right: 40px;
+}
+
+.nav-menu-item:first-child {
+  margin-right: 76px;
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
 }
 
 
@@ -94,25 +110,17 @@ ul {
   color: var(--ocean);
 }
 
-.contacts-address {
-  display: inline-block;
-}
-
 .contacts-address .contacts-address-link:hover {
   color: var(--ocean);
 }
 
 .contacts-address-link {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
   color: var(--slate);
 }
 
-.contacts:nth-child(1) {
-  left margin: 332px;
-}
 .hero {
   background-color: var(--navy-blue);
 }
@@ -140,7 +148,6 @@ ul {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
@@ -180,16 +187,15 @@ ul {
 
 }
 
-h3 {
-  font-size: 20px;
-  font-style: normal;
+.section-sub-header {
+  font-size: 20px;  
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.4px;
   color: var(--navy-blue);
 }
 
-p {
+.section-text {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
@@ -200,7 +206,7 @@ p {
   list-style-type: none;
 }
 
-h2 {
+.section-main-header {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -226,11 +232,11 @@ h2 {
   list-style-type: none;
 }
 
-footer {
+.footer {
   background-color: var(--navy-blue);
 }
 
-footer p {
+.footer-text {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5em;
@@ -247,5 +253,25 @@ footer p {
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
+}
 
+.main-header-container {
+  width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  padding: 120px 0px;
+
+}
+
+.service {
+  padding: 120px 0px;
+}
+
+.team {
+  padding: 120px 0px;
+  background-color: var(--cloud);
 }
