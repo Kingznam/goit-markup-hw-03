@@ -220,6 +220,7 @@ address {
   margin-top: 96px;
   column-gap: 24px;
   display: flex;
+  row-gap: 48px;
 }
 
 .filter-button {
