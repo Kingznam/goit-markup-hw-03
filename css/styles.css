@@ -199,12 +199,13 @@ address {
 }
 
 .features-items {
-  display: inline-block;
+  display: flex;
+  column-gap: 24px;
 }
 
 .features-item {
-  display: flex;
-  width: calc((100% - 21px) / 4);
+  display: inline-block;
+  text-align: left;
 }
 
 .filter-menu {
@@ -249,6 +250,7 @@ address {
 .project-card-items {
   display: inline-flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .project-card-list {
@@ -289,12 +291,9 @@ address {
 
 }
 
-.features-item {
-  list-style-type: none;
-  text-align: left;
-}
 .features-item .section-sub-header {
   margin-bottom: 8px;
+
 }
 
 .section-main-header {
@@ -377,13 +376,10 @@ address {
 
 }
 
-.service {
-  padding: 120px 0px;
-}
-
 .team {
   padding: 120px 0px;
   background-color: var(--cloud);
+  margin-top: 120px;
 }
 
 .footer-container {
