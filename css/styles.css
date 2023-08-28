@@ -210,7 +210,7 @@ address {
 
 .filter-menu {
   display: inline-flex;
-  row-gap: 48px;
+  justify-content: 24px;
 }
 
 .filter-item {
@@ -220,7 +220,6 @@ address {
   margin-top: 96px;
   column-gap: 24px;
   display: flex;
-  row-gap: 48px;
 }
 
 .filter-button {
