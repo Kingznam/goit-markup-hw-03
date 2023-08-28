@@ -54,7 +54,7 @@ address {
 }
 
 .main-header-container {
-  width: 1158px;
+  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -201,8 +201,20 @@ address {
   margin-right: 24px;
 }
 
+.filter-menu {
+  display: inline-flex;
+  justify-content: 24px;
+  gap: 24px;
+}
+
 .filter-item {
   list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  column-gap: 24px;
+  display: flex;
 }
 
 .filter-button {
@@ -228,10 +240,24 @@ address {
   0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
+.project-card-items {
+  display: inline-flex;
+}
+
 .project-card-list {
   list-style-type: none;
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  text-align: center;
 
 }
+
+
+
 
 .section-sub-header {
   font-size: 20px;  
@@ -321,7 +347,7 @@ address {
 }
 
 .section-container {
-  width: 1158px;
+  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -345,7 +371,7 @@ address {
 }
 
 .footer-container {
-  width: 1158px;
+  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
