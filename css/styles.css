@@ -204,7 +204,7 @@ address {
 
 .features-item {
   display: flex;
-  margin-right: 24px;
+  width: calc((100% - 21px) / 4);
 }
 
 .filter-menu {
