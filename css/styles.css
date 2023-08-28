@@ -265,7 +265,6 @@ address {
   border: 1px solid var(--cornflower, #E7E9FC);
   background: var(--white, #FFF);
   margin-top: 48px;
-  margin-bottom: 120px;
 }
 .project-card-list .section-text {
   margin-top: 8px;
