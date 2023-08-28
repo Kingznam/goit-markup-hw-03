@@ -251,6 +251,8 @@ address {
   display: inline-flex;
   justify-content: space-between;
   list-style: none;
+  flex-wrap: wrap;
+  width: calc((100% - 48) / 3 )
 }
 
 .project-card-list {
@@ -265,8 +267,7 @@ address {
   border: 1px solid var(--cornflower, #E7E9FC);
   background: var(--white, #FFF);
   margin-top: 48px;
-  flex-wrap: wrap;
-  width: calc((100% - 48) / 3 )
+
 }
 .project-card-list .section-text {
   margin-top: 8px;
