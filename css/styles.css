@@ -210,7 +210,7 @@ address {
 
 .filter-menu {
   display: inline-flex;
-  justify-content: space-between;
+  row-gap: 48px;
 }
 
 .filter-item {
