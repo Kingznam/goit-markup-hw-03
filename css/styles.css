@@ -248,7 +248,7 @@ address {
 }
 
 .project-card-items {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   list-style: none;
   flex-wrap: wrap;
