@@ -211,7 +211,6 @@ address {
 .filter-menu {
   display: inline-flex;
   justify-content: 24px;
-  gap: 24px;
 }
 
 .filter-item {
@@ -400,6 +399,6 @@ address {
 }
 
 .footer-text {
-  margin-top: 17.5pxx;
+  margin-top: 17.5px;
 
 }
