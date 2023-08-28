@@ -278,6 +278,11 @@ address {
   margin-top: 32px;
 }
 
+.project-card .section-container {
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
 .section-sub-header {
   font-size: 20px;  
   font-weight: 500;
