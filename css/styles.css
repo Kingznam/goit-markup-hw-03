@@ -203,7 +203,7 @@ address {
 }
 
 .features-item {
-  display: inline-block;
+  display: flex;
   margin-right: 24px;
 }
 
