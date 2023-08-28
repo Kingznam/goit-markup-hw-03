@@ -266,6 +266,7 @@ address {
   background: var(--white, #FFF);
   margin-top: 48px;
   flex-wrap: wrap;
+  width: calc((100% - 48) / 3 )
 }
 .project-card-list .section-text {
   margin-top: 8px;
