@@ -17,15 +17,26 @@
  --blue: #0000ff;
 }
 
-
 body {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
 }
+
+button {
+  font-family: inherit;
+  border: unset;
+  outline: none;
+  cursor: pointer;
+}
+
 header {
   color: var(--navy-blue);
 }
@@ -53,25 +64,34 @@ address {
   font-style: normal;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
 .main-header-container {
-  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: space-between;
 
+}
+
+.nav-menu {
+  display: inline-flex;
+  gap: 76px;
 }
 
 .header {
   border-bottom: 1px solid var(--cornflower, #E7E9FC);
   background: var(--white, #FFF);
+  padding: 24px 0px;
 }
 
 .nav-menu-link {
   display: flex;
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .nav-menu-item {
@@ -81,37 +101,18 @@ address {
 .contacts-address {
   display: inline-block;
   margin-left:auto;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
-.nav-menu ul {
-  list-style: none;
+.nav-menu-list {
   display: flex;
   gap: 40px;
   position: relative;
-  left: 76px;
 }
 
 .address ul {
-  list-style: none;
   display: flex;
   gap: 40px;
-  position: relative;
-  left: 332px;
 }
-
-
-.nav-menu-list {
-  list-style: none;
-  margin-left: 76px;
-
-}
-
-.contacts {
-  list-style: none;
-}
-
 
 .logo {
   text-decoration: none;
@@ -122,8 +123,6 @@ address {
   font-weight: 800;
   line-height: 1.17em;
   letter-spacing: 0.54px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .iris {
@@ -139,13 +138,11 @@ address {
 
 }
 
-.nav-menu-list .nav-menu-link:hover {
+ .nav-menu-link:hover,
+ .contacts-address-link {
   color: var(--ocean);
 }
 
-.contacts-address .contacts-address-link:hover {
-  color: var(--ocean);
-}
 
 .contacts-address-link {
   font-size: 16px;
@@ -182,9 +179,6 @@ address {
 .hero-button {
   background-color: var(--iris);
   color: var(--white);
-  cursor: pointer;
-  outline: none;
-  border: unset;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -192,7 +186,6 @@ address {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
-  font-family: inherit;
   display: inline-block;
   margin-top: 48px;
   margin-bottom: 188px;
@@ -213,7 +206,6 @@ address {
 }
 
 .filter-item {
-  list-style: none;
   justify-content: center;
   align-items: center;
   margin-top: 96px;
@@ -236,7 +228,7 @@ address {
   font-family: inherit;
 }
 
-.filter-item .filter-button:hover{
+.filter-button:hover{
   background-color: var(--ocean);
   border-color: var(--ocean);
   color: var(--white);
@@ -247,13 +239,11 @@ address {
 .project-card-items {
   display: flex;
   justify-content: space-between;
-  list-style: none;
   flex-wrap: wrap;
   width: calc((100% - 48) / 3 )
 }
 
 .project-card-list {
-  list-style-type: none;
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -312,7 +302,6 @@ address {
 }
 
 .services-lists {
-  list-style: none;
   display: inline-flex;
   column-gap: 24px;
   align-items: flex-start;
@@ -323,7 +312,6 @@ address {
 }
 
 .team-members {
-  list-style: none;
   display: inline-flex;
   column-gap: 24px;
   justify-content: center;
@@ -365,7 +353,6 @@ address {
 }
 
 .section-container {
-  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -386,7 +373,6 @@ address {
 }
 
 .footer-container {
-  width: 1128px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
