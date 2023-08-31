@@ -169,7 +169,7 @@ address {
   letter-spacing: 1.12px;
   line-height: 1.07em;
   display: block;
-  margin-top: 188px;
+  padding-top: 188px;
 }
 
 .hero-button:hover {
@@ -226,6 +226,7 @@ address {
   outline: none;
   border: 1px solid var(--cornflower);
   font-family: inherit;
+  display: inline-flex;
 }
 
 .filter-button:hover{
