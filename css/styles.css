@@ -250,7 +250,7 @@ address {
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   flex-shrink: 0;
   text-align: center;
   width: calc((100% - 24px) / 3 );
@@ -272,8 +272,8 @@ address {
   margin-bottom: 120px;
 }
 
-.project-card-list:nth-child(-n + 3) {
-  margin-top: 72px;
+.project-card-items:nth-child(-n + 3) {
+  margin-top: 0px;
 }
 
 .section-sub-header {
