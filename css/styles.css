@@ -272,6 +272,10 @@ address {
   margin-bottom: 120px;
 }
 
+.project-card-list:nth-child(-n + 3) {
+  margin-top: 72px;
+}
+
 .section-sub-header {
   font-size: 20px;  
   font-weight: 500;
