@@ -261,11 +261,6 @@ address {
   width: calc((100% - 24px) / 3 );
   border: 1px solid var(--cornflower, #E7E9FC);
   background: var(--white, #FFF);
-  margin-top: 48px;
-}
-.project-card-list .section-text {
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
 
 .project-card-list .section-sub-header {
