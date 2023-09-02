@@ -308,6 +308,10 @@ address {
 
 }
 
+.features-item .section-text {
+  display: flex;
+}
+
 .section-main-header {
   text-align: center;
   font-size: 36px;
