@@ -67,6 +67,7 @@ address {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-header-container {
@@ -158,6 +159,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 188px 0;
 
 }
 
@@ -169,7 +171,7 @@ address {
   letter-spacing: 1.12px;
   line-height: 1.07em;
   display: block;
-  padding-top: 188px;
+  margin-bottom: 48px;
 }
 
 .hero-button:hover {
@@ -186,18 +188,18 @@ address {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
-  display: inline-block;
-  margin-top: 48px;
-  margin-bottom: 188px;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .features-items {
   display: flex;
   column-gap: 24px;
+  justify-content: space-between;
 }
 
 .features-item {
-  display: inline-block;
   text-align: left;
 }
 
@@ -278,6 +280,7 @@ address {
   line-height: 1.2em;
   letter-spacing: 0.4px;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .section-text {
@@ -301,7 +304,7 @@ address {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--navy-blue);
-  margin-bottom: 80px;
+  margin-bottom: 72px;
 }
 
 .services-lists {
@@ -310,8 +313,8 @@ address {
   align-items: flex-start;
 }
 
-.team {
-  background-color: var(--cloud);
+.service {
+  padding-bottom: 120px;
 }
 
 .team-members {
@@ -319,6 +322,11 @@ address {
   column-gap: 24px;
   justify-content: center;
 }
+
+.team-member-details {
+  padding: 32px 16px;
+}
+
  .team-images {
   text-align: center;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -326,14 +334,6 @@ address {
  }
 .team-text {
   text-align: center;
-}
-
-.team-images .section-sub-header {
-  margin: 32px 0px 8px;
-}
-
-.team-members .team-images {
-  padding-bottom: 32px;
 }
 
 .footer {
@@ -357,8 +357,6 @@ address {
 
 .section-container {
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -372,7 +370,6 @@ address {
 .team {
   padding: 120px 0px;
   background-color: var(--cloud);
-  margin-top: 120px;
 }
 
 .footer-container {
@@ -385,9 +382,5 @@ address {
 .footer .logo {
   margin-bottom: 17.5px;
   display: block;
-}
-
-.footer-text {
-  margin-top: 17.5px;
-
+  margin-bottom: 17.5px;
 }
