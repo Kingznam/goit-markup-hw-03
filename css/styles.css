@@ -203,7 +203,7 @@ address {
 .features-item {
   text-align: left;
 }
-.filter {
+.filters {
   padding: 96px 0 72px;
 }
 
@@ -244,18 +244,21 @@ address {
   0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
+.project-card-details {
+  padding: 32px 16px;
+  background-color: var(--white);
+}
+
 .project-card-items {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: calc((100% - 48) / 3 )
 }
 
 .project-card-list {
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
-  align-items: center;
   flex-shrink: 0;
   text-align: center;
   width: calc((100% - 24px) / 3 );
@@ -263,13 +266,24 @@ address {
   background: var(--white, #FFF);
 }
 
-.project-card-list .section-sub-header {
-  margin-top: 32px;
+.project-card-list:nth-child(n+4) {
+  margin-top: 48px;
 }
 
-.project-card .section-container {
-  margin-top: 72px;
-  margin-bottom: 120px;
+.project-card-details .section-sub-header {
+  text-align: left;
+}
+
+.project-card-details .section-text {
+   text-align: left;
+}
+
+.project-card {
+ padding: 0 0 120px;
+}
+
+.image {
+  justify-self: center;
 }
 
 .section-sub-header {
@@ -376,6 +390,7 @@ address {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--navy-blue);
+  text-align: left;
 }
 
 .footer .logo {
