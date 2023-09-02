@@ -191,7 +191,6 @@ address {
   letter-spacing: 0.64px;
   display: block;
   margin: 0 auto;
-
 }
 
 .features-items {
@@ -203,6 +202,7 @@ address {
 .features-item {
   text-align: left;
 }
+
 .filters {
   padding: 96px 0 72px;
 }
