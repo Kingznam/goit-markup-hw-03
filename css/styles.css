@@ -86,8 +86,8 @@ address {
 }
 
 .header {
-  border-bottom: 1px solid var(--cornflower, #E7E9FC);
-  background: var(--white, #FFF);
+  border-bottom: 1px solid var(--cornflower);
+  background: var(--white);
   padding: 24px 0px;
 }
 
@@ -247,12 +247,16 @@ address {
 .project-card-details {
   padding: 32px 16px;
   background-color: var(--white);
+  border: 1px solid var(--cornflower);
+  border-top: unset;
+
 }
 
 .project-card-items {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .project-card-list {
@@ -261,13 +265,8 @@ address {
   flex-direction: column;
   flex-shrink: 0;
   text-align: center;
-  width: calc((100% - 24px) / 3 );
-  border: 1px solid var(--cornflower, #E7E9FC);
-  background: var(--white, #FFF);
-}
-
-.project-card-list:nth-child(n+4) {
-  margin-top: 48px;
+  width: 360px;
+  background: var(--white);
 }
 
 .project-card-details .section-sub-header {
